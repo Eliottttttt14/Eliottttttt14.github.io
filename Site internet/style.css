@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+header {
+    background-color: rgb(165, 139, 4);
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    background-color: red;
+    color: black;
+    width: 100%;
+    padding: 20px; 
+}
+
+main>section {
+    background-color: red;
+    color: black;
+    width: 100%;
+    padding: 20px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+img {
+    width: 200px;                 
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: rgb(52, 71, 94);
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
